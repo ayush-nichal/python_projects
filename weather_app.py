@@ -55,7 +55,7 @@ def main():
         .main {
             background-color: #ff5733;
             padding: 20px;
-            border-radius: 10px;
+            border-radius: 20px;
         }
         .title {
             color: #4CAF50;
