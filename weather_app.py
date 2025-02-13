@@ -39,12 +39,14 @@ if __name__ == "__main__":
 import streamlit as st
 import requests
 
+
 # Function to get weather data
 def get_weather(city, api_key):
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
     complete_url = base_url + "q=" + city + "&appid=" + api_key + "&units=metric"
     response = requests.get(complete_url)
     return response.json()
+
 
 # Streamlit app
 def main():
